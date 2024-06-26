@@ -259,8 +259,8 @@ header .header-right .hamburger div {
 .sm ul {
     display: flex;
     place-content: center;
-    margin-top: 6% !important;
-    gap: 15px;
+    margin-top: 6%;
+    gap: 115px;
 }
 
 .sm img {
@@ -594,5 +594,12 @@ footer {
     width: 79%;
     margin-top: 7%;
     margin-bottom: 9%;
+
+    .sm ul {
+    display: flex;
+    place-content: center;
+    margin-top: 6%;
+    gap: 15px !important;
+}
 }
 }
