@@ -83,7 +83,7 @@ nav ul li a.active {
     color: #6db329;
 }
 #bckimage {
-    background-image: url("../new_fond.jpeg");
+    background-image: url("../img/new_fond.jpeg");
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -251,30 +251,29 @@ header .header-right .hamburger div {
     height: auto;
     text-align: center;
 }
-#smp {
-    height: 100%;
+
+.sm {
+    place-content: center;
 }
-#smp ul {
+
+.sm ul {
     display: flex;
     place-content: center;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+    gap: 15px;
 }
-.smfw {
-    height: 80px;
+
+.sm img {
+    height: 50px;
+    width: 50px;
+    margin-top: 20%;
 }
-.smf {
-    height: 95px;
-}
-.smf :first-child {
-    height: 85px;
-}
+
+
 
 #secundo {
     padding-left: 9%;
     padding-right: 9%;
+    min-height: 170vh;
 }
 .hidden {
     border: 0;
@@ -489,7 +488,7 @@ footer {
         background: #1e2022;
     }
     .sm {
-        display: none;
+        display: flex;
     }
     header .header-right .hamburger {
         display: block;
@@ -558,21 +557,9 @@ footer {
         margin-right: 0px;
         padding-right: 0;
     }
-    #smp ul {
-        display: grid;
-        place-content: center;
-        height: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-    .smf {
-        height: 85px;
-    }
-    #smfi {
-        height: 78px;
-    }
+  
     #bckimage {
-        background-image: url("../cover.jpeg");
+        background-image: url("../img/Mobile.jpeg");
         width: 100%;
         height: 100vh;
         background-size: cover;
@@ -584,39 +571,15 @@ footer {
         z-index: 2;
         background-position-x: center;
     }
-    #gallery #gallery-container #gallery-controls {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        z-index: 4;
-        position: absolute;
-        right: 0;
-        bottom: 1em;
-        left: 0;
-        text-align: center;
-    }
-    #gallery #gallery-container #gallery-content .gallery__item img {
-        display: block;
-        width: 100%;
-        height: 98%;
-        object-fit: contain;
+
+    #chisono {
         background-color: #1e2022;
+        padding-left: 9%;
+        padding-right: 9%;
+        text-align-last: center;
+        padding-top: 0%;
     }
-    .arrow {
-        text-align: center;
-        z-index: 3;
-        position: absolute;
-        display: block;
-        width: 25px;
-        height: 25px;
-        background-color: white;
-        border-radius: 50%;
-        text-decoration: none;
-        color: black;
-        opacity: 0.5;
-        transition: opacity 200ms ease;
-        display: none;
-    }
+
     #contatti {
         background-color: #1e2022 !important;
         background-image: none;
