@@ -263,9 +263,9 @@ header .header-right .hamburger div {
 }
 
 .sm img {
-    height: 50px;
-    width: 50px;
-    margin-top: 20%;
+    height: 100px;
+    width: 100px;
+}
 }
 
 
@@ -320,7 +320,7 @@ header .header-right .hamburger div {
     margin-left: 9%;
     margin-right: 9%;
     border-radius: 11px;
-    margin-top: 9%;
+    margin-top: 6%;
 }
 form {
     max-width: 420px;
@@ -489,6 +489,7 @@ footer {
     }
     .sm {
         display: flex;
+        margin-top: 5%;
     }
     header .header-right .hamburger {
         display: block;
